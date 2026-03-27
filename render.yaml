@@ -1,0 +1,8 @@
+version: 1
+services:
+  web:
+    build:
+      context: .
+      command: npm install && npm run build
+    start:
+      command: npm start
